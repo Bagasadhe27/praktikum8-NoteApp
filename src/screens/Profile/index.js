@@ -9,7 +9,7 @@ const Profile = ({ navigation }) => {
         <VStack backgroundColor="$blueGray100" width={"$full"} mb={"$10"}>
           <Image source={require("../../assets/images/avatar.png")} size="2xl" borderRadius={"$full"} alignSelf="center" alt="Foto Profil" />
           <Text fontSize={"$xl"} alignSelf="center" marginTop={"$5"} fontWeight="$bold">
-            Nama User
+            Bagas Adhe Prasetya
           </Text>
         </VStack>
         <Box flexDirection="column" bgColor="$white" shadowColor="$black" shadowOffset={{ width: 0, height: 2 }} shadowOpacity={"$25"} shadowRadius={"$3.5"} justifyContent="space-evenly" p={"$5"} borderRadius={"$xl"}>
@@ -21,7 +21,7 @@ const Profile = ({ navigation }) => {
               Email
             </Text>
             <Text color="$black" fontSize={"$xl"} mt={"$2"}>
-              Lorem Ipsum
+              bagasade888@gmail.com
             </Text>
           </Box>
           <Box mt={"$5"}>
@@ -29,7 +29,7 @@ const Profile = ({ navigation }) => {
               Nomor Ponsel
             </Text>
             <Text color="$black" fontSize={"$xl"} mt={"$2"}>
-              Lorem Ipsum
+              0856-4846-7135
             </Text>
           </Box>
         </Box>
